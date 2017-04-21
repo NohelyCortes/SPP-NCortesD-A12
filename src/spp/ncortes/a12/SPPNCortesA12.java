@@ -49,7 +49,7 @@ public class SPPNCortesA12 {
                 String entrada = JOptionPane.showInputDialog(null, "Ingrese su peso en kilogramos: ");
                 peso =Integer.parseInt(entrada);
                 flag=false;
-            }catch(Exception ex){
+            }catch(Exception er){
                 JOptionPane.showMessageDialog(frame, "Intente de nuevo", " Error ", 
                                         JOptionPane.ERROR_MESSAGE);
                 flag=true;
